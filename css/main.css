@@ -94,8 +94,27 @@ html {
   font-size: 1em;
 }
 
+
 body {
   background-color:hsl(30, 38%, 92%);
+}
+
+.card-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  width: 91%;
+  border: 0;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 20px;
+}
+
+figure {
+  margin:0;
+}
+
+img {
+  width: 100%;
 }
 
 .main-image {
@@ -120,9 +139,17 @@ p {
   font-weight: 500;
 }
 
-span {
+.price  {
+  display: inline-block;
   color: #339966;
-  font-family: ;
+  font-family: 'Fraunces';
+  font-size: 2.5em;
+}
+
+.old-price {
+  font-family: 'Fraunces';
+  font-size: 1em;
+  text-decoration: line-through;
 }
 
 .add-to-cart {
@@ -139,6 +166,7 @@ span {
 
 .cart-icon {
   padding: 7px;
+  width: 15px;
 }
 
 
