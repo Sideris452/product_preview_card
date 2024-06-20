@@ -97,6 +97,7 @@ html {
 
 body {
   background-color:hsl(30, 38%, 92%);
+  margin:10px;
 }
 
 .card-wrapper {
@@ -107,6 +108,7 @@ body {
   border: 0;
   background-color: hsl(0, 0%, 100%);
   border-radius: 20px;
+  box-shadow: 0 4px 8px 5px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 figure {
@@ -115,10 +117,15 @@ figure {
 
 img {
   width: 100%;
+  border-radius: 10px 10px 0 0;
 }
 
 .main-image {
   width: 100%;
+}
+
+.content-wrapper {
+  padding: 20px;
 }
 
 h1 {
@@ -153,7 +160,7 @@ p {
 }
 
 .add-to-cart {
-  width: 60%;
+  width: 100%;
   padding: 1em 1em;
   border: 0;
   background-color: hsl(158, 36%, 37%);
