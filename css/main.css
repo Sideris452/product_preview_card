@@ -96,6 +96,8 @@ html {
 
 
 body {
+  display: flex;
+  justify-content: center;
   background-color:hsl(30, 38%, 92%);
   margin:10px;
 }
@@ -130,8 +132,8 @@ img {
 
 h1 {
   font-family: 'Montserrat';
-  font-size: 1em;
-  font-weight: 300;
+  font-size: 1.3em;
+  font-weight: 400;
 }
 
 h2 {
@@ -154,6 +156,7 @@ p {
 }
 
 .old-price {
+  margin-left: 20px;
   font-family: 'Fraunces';
   font-size: 1em;
   text-decoration: line-through;
